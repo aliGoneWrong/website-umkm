@@ -1,1 +1,215 @@
-# website-umkm
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cetak Jaya Digital</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    background:#f5f5f5;
+    color:#333;
+}
+
+header{
+    background:#0066cc;
+    color:white;
+    text-align:center;
+    padding:60px 20px;
+}
+
+header h1{
+    font-size:3rem;
+}
+
+header p{
+    margin-top:10px;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:20px;
+    padding:12px 24px;
+    background:white;
+    color:#0066cc;
+    text-decoration:none;
+    border-radius:5px;
+    font-weight:bold;
+}
+
+section{
+    padding:60px 10%;
+}
+
+h2{
+    margin-bottom:20px;
+    color:#0066cc;
+}
+
+.about{
+    line-height:1.8;
+}
+
+.products{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:white;
+    border-radius:10px;
+    padding:20px;
+    box-shadow:0 2px 10px rgba(0,0,0,.1);
+}
+
+.card h3{
+    margin-bottom:10px;
+}
+
+.price{
+    color:green;
+    font-weight:bold;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    background:white;
+}
+
+table th,table td{
+    padding:15px;
+    border:1px solid #ddd;
+}
+
+table th{
+    background:#0066cc;
+    color:white;
+}
+
+.contact{
+    background:white;
+    padding:30px;
+    border-radius:10px;
+}
+
+footer{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+</style>
+</head>
+<body>
+
+<header>
+    <h1>Cetak Jaya Digital</h1>
+    <p>Solusi Fotokopi & Percetakan Cepat, Murah, dan Berkualitas</p>
+    <a href="#kontak" class="btn">Hubungi Kami</a>
+</header>
+
+<section>
+    <h2>Tentang Kami</h2>
+    <div class="about">
+        Cetak Jaya Digital adalah UMKM yang bergerak di bidang
+        fotokopi, percetakan, laminating, penjilidan, dan penjualan
+        alat tulis kantor. Kami melayani kebutuhan pelajar,
+        mahasiswa, perkantoran, dan masyarakat umum.
+    </div>
+</section>
+
+<section>
+    <h2>Produk & Layanan</h2>
+
+    <div class="products">
+
+        <div class="card">
+            <h3>Fotokopi</h3>
+            <p>Cetak hitam putih dan warna.</p>
+            <p class="price">Mulai Rp300/lembar</p>
+        </div>
+
+        <div class="card">
+            <h3>Print Dokumen</h3>
+            <p>Print tugas, laporan, dan proposal.</p>
+            <p class="price">Mulai Rp500/lembar</p>
+        </div>
+
+        <div class="card">
+            <h3>Jilid Skripsi</h3>
+            <p>Hardcover dan softcover.</p>
+            <p class="price">Mulai Rp35.000</p>
+        </div>
+
+        <div class="card">
+            <h3>Laminating</h3>
+            <p>Laminasi berbagai ukuran.</p>
+            <p class="price">Mulai Rp5.000</p>
+        </div>
+
+    </div>
+</section>
+
+<section>
+    <h2>Price List</h2>
+
+    <table>
+        <tr>
+            <th>Layanan</th>
+            <th>Harga</th>
+        </tr>
+
+        <tr>
+            <td>Fotokopi B/W</td>
+            <td>Rp300</td>
+        </tr>
+
+        <tr>
+            <td>Print B/W</td>
+            <td>Rp500</td>
+        </tr>
+
+        <tr>
+            <td>Print Warna</td>
+            <td>Rp2.000</td>
+        </tr>
+
+        <tr>
+            <td>Jilid Softcover</td>
+            <td>Rp15.000</td>
+        </tr>
+
+        <tr>
+            <td>Jilid Hardcover</td>
+            <td>Rp35.000</td>
+        </tr>
+
+    </table>
+</section>
+
+<section id="kontak">
+    <h2>Kontak Kami</h2>
+
+    <div class="contact">
+        <p><strong>WhatsApp:</strong> 0812-3456-7890</p>
+        <p><strong>Email:</strong> info@cetakjaya.com</p>
+        <p><strong>Alamat:</strong> Jl. Contoh No. 123, Jakarta</p>
+        <p><strong>Instagram:</strong> @cetakjayadigital</p>
+    </div>
+</section>
+
+<footer>
+    © 2026 Cetak Jaya Digital. All Rights Reserved.
+</footer>
+
+</body>
+</html>
